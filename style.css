@@ -5,72 +5,219 @@ body {
     font-family: roboto;
 }
 
-header {
-    padding: 36px 32px 0 38px;
+.head {
+    font-family: Roboto Slab, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+    margin-top: 56px;
+    margin-bottom: 25.7px;
+    padding-left: 1px;
 }
 
-.logo {
-    width: 52px;
-    margin-bottom: 44px;
+.main-info{
+    padding-left: 1px;
 }
 
-.timing {
+.all-text {
+    margin-top: 18px;
+    width: 308px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.main-image {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 34px;
+    width: 308px;
+}
+
+.main-image img{
+    width: 170.55px;
+    height: 160.29px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.shedule{
     display: flex;
-    margin-bottom: 8px;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 308px;
 }
 
-.planet-img {
-    width: 10px;
-    margin-right: 5px;
+.shedule h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 130%;
+    margin-top: 9px;
+    margin-bottom: 2px;
 }
 
-.clock-img {
-    width: 10px;
-    margin-right: 5px;
-}
-
-.calendar-img {
-    width: 10px;
-    margin-right: 5px;
-}
-
-.timing-item {
-    width: 60px;
-    line-height: 11px;
-    margin-right: 11px;
+.shedule article{
+    width: 85px;
     font-size: 10px;
+    margin-right: 34px;
 }
 
-h1 {
-    font-family: roboto slab;
-    font-size: 37px;
-    width: 290px;
-    line-height: 37px;
+.shedule p{
+    margin-top: 0px;
+    margin-bottom: 18px;
+ }
+ 
+.shedule-image{
+    display: none;
 }
 
-.watch-film-item {
-    width: 212px;
-    font-size: 10px;
+@media (min-width:830px) and (max-width:1399px) {
+    .wrapper{
+        min-width: 830px;
+        max-width: 1399px; 
+    }
+    
+    main{
+        margin-left: 64px;
+    }
+
+    .head {
+        font-size: 32px;
+        margin-bottom: 28.3px;
+    }
+
+    .main-info{
+        display: flex;
+        margin-bottom: 26px;
+    }
+
+    .all-text {
+        width: 383.41px;
+        font-size: 14px;
+        margin: 0px 95px 0px 0px; 
+        padding: 0px;
+    }
+
+    .text{
+        margin-top: 4px;
+        margin-bottom: 21px;
+    }
+    
+    .main-image{
+        margin-top: 17px;
+    }
+
+    .main-image img{
+        width: 212px;
+        height: 199px;
+        margin: 0px;
+    }
+
+    .shedule{
+        display: flex;
+        flex-wrap: nowrap;
+        min-width: 830;
+        max-width: 1399px;
+    }
+
+    .shedule h3{
+        font-size: 15px;
+        margin-bottom: 5px; 
+    }
+
+    .shedule article{
+        width: 90px;
+        font-size: 11px;
+        margin-right: 51px; 
+    }
 }
 
-.director-img {
-    width: 141px;
-    margin-left: 160px;
+@media (min-width:1400px) {
+    .wrapper{
+        min-width: 1400px;
+    }
+    
+    main{
+        margin-left: 116px;
+    }
+
+    .head {
+        font-size: 55px;
+        margin-top: 91px;
+        margin-bottom: 51.5px;
+    }
+
+    .main-info{
+        display: flex;
+        /* margin-bottom: 26px; */
+    }
+
+    .all-text {
+        width: 662px;
+        font-size: 24px;
+        margin: 0px 164px 36.7px 0px; 
+        padding: 0px;
+    }
+
+    .text{
+        margin-top: 4px;
+        margin-bottom: 36px;
+    }
+    
+    .main-image{
+        margin-top: 29.5px;
+    }
+
+    .main-image img{
+        width: 366px;
+        height: 344px;
+        margin: 0px;
+    }
+
+    .shedule{
+        display: flex;
+        flex-wrap: nowrap;
+        min-width: 1400px;
+    }
+
+    .shedule h3{
+        padding-top: 60px;
+        font-size: 25px;
+        margin-bottom: 8.5px; 
+    }
+
+    .shedule article{
+        width: 232px;
+        font-size: 18px;
+        margin-right: 12px;
+        height: 220px;
+    } 
+    .shedule p{
+        width: 150px;
+    }
+
+    .shedule-image  {
+        display: block;
+        width: 232px;
+        padding-right:119px;
+        
+    }
+    .shedule-image  img{
+        position: relative;
+    }
+
+    .ellipse{
+        margin: -18px 0px 5px 30px;
+        z-index: 1;
+    }
+
+    .photo{
+        z-index: 2;
+    }
 }
 
-.quote {
-    background-color: #1E4681;
-    color: white;
-    font-size: 11px;
-    font-family: roboto slab;
-    line-height: 14px;
-    width: 225px;
-    height: 94px;
-    padding: 9px 12px 9px 12px;
-    box-sizing: border-box;
-}
 
-.author {
-    margin-top: 6px;
-}
+
