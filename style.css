@@ -39,17 +39,17 @@ header {
 }
 
 .planet-img {
-    width: 11px;
+    width: calc(0.6vw + 0.6vh + 1vmin);
     margin-right: 3px;
 }
 
 .clock-img {
-    width: 11px;
+    width: calc(0.6vw + 0.6vh + 1vmin);
     margin-right: 3px;
 }
 
 .calendar-img {
-    width: 11px;
+    width: calc(0.6vw + 0.6vh + 1vmin);
     margin-right: 3px;
 }
 
@@ -57,34 +57,35 @@ header {
     display: flex;
     width: 75px;
     line-height: 11px;
-    margin-right: 4%;
-    font-size: 1em;
+    margin-right: 12px;
+    font-size: 1rem;
 }
 
 .timing-item-two {
     display: flex;
     width: 67px;
     line-height: 11px;
-    margin-right: 4%;
-    font-size: 1em;
+    margin-right: 12px;
+    font-size:  1rem;
 }
 
 .timing-item-three {
     display: flex;
     width: 67px;
     line-height: 11px;
-    font-size: 1em;
+    font-size:  1rem;
 }
 
 .watch-film-description {
     margin-right: 65px;
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 h1 {
     font-family: roboto slab;
-    font-size: 3.7em;
+    /* font-size: 3.7rem; */
     max-width: 262px;
+    font-size: calc(3vw + 3vh + 1vmin);
     line-height: 37px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -92,7 +93,7 @@ h1 {
 
 .watch-film-item {
     width: 212px;
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 15px;
 }
 
@@ -103,11 +104,11 @@ h1 {
     margin-left: 165px;
 }
 
-@media(min-width: 528px) {
+@media(min-width: 548px) {
     .director-img {
         max-width: 204px;
         width: 38%;
-        margin-left: 0;
+        margin-left: 3vw;
     }
 }
 
@@ -122,15 +123,36 @@ h1 {
     background-color: #1E4681;
     border-radius: 2.33px;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-family: roboto slab;
     line-height: 14.3px;
     width: 60vw;
     height: 25.07vw;
     padding: 9px 12px 9px 12px;
     box-sizing: border-box;
-    max-width: 484px;
-    max-height: 200px;
+    max-width: 240px;
+    max-height: 100px;
+    font-weight: 300;
+}
+
+@media(min-width: 375px) {
+    .watch-film-item {
+        font-size: 2.3vw;
+    }
+}
+@media(min-width: 650px) {
+    .watch-film-item {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 352px) {
+    .quote {
+        font-size: 0.8rem;
+    }
+    .author {
+        font-size: 0.7rem;
+    }
 }
 
 .quote-item {
@@ -139,17 +161,24 @@ h1 {
 
 .author {
     margin-top: 6px;
-    font-size: 1em;
+    font-size: 1rem;
     text-align: end;
+    font-family: roboto;
 }
 
 @media(min-width: 992px) {
+
+    html {
+        font-size: 12px;
+    }
+    
     header {
         padding: 25px 165px 0 81px;
     }
 
     .logo {
-        width: 8%;
+        width: 7%;
+        max-width: 115px;
     }
 
     .timing {
@@ -157,54 +186,55 @@ h1 {
     }
 
     .planet-img {
-        width: 1.5em;
+        width: 13px;
         margin-right: 7px;
     }
     
     .clock-img {
-        width: 1.5em;
+        width: 13px;
         margin-right: 7px;
     }
     
     .calendar-img {
-        width: 1.5em;
+        width: 13px;
         margin-right: 8px;
     }
     
     .timing-item-one {
         display: flex;
-        width: 95px;
+        width: 9.58vw;
         line-height: 11px;
-        margin-right: 6%;
-        font-size: 1.2em;
+        margin-right: 3%;
+        font-size: 1.2rem;
     }
     
     .timing-item-two {
         display: flex;
-        width: 75px;
+        width: 7.56vw;
         line-height: 11px;
-        margin-right: 6%;
-        font-size: 1.2em;
+        margin-right: 3%;
+        font-size: 1.2rem;
     }
     
     .timing-item-three {
         display: flex;
-        width: 88px;
+        width: 8.87vw;
         line-height: 11px;
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }    
 
     h1 {
-        font-size: 5.3em;
+        /* font-size: 5.3rem; */
         max-width: 567px;
         width: 385px;
         margin-bottom: 27px;
+        line-height: 45px;
     }
 
     .watch-film-item {
-        font-size: 1.4em;
+        font-size: 1.4rem;
         width: 290px;
-        line-height: 1.6em;
+        line-height: 1.6rem;
     }
 
     .director-img {
@@ -218,7 +248,7 @@ h1 {
     }
 
     .quote {
-        font-size: 1em;
+        font-size: 1rem;
         line-height: 1.8vw;
         width: 35%;
         height: 13vw;
@@ -235,6 +265,109 @@ h1 {
     .author {
         margin-top: 8px;
         font-size: 1.4vw;
+        text-align: end;
+    }
+}
+
+@media(min-width: 1280px) {
+    html {
+        font-size: 14px;
+    }
+    
+    header {
+        padding: 18px 216px 0 106px;
+    }
+
+    .logo {
+        width: 7%;
+        max-width: 115px;
+    }
+
+    .timing {
+        max-width: 485px;
+    }
+
+    .planet-img {
+        width: 20px;
+        margin-right: 9px;
+    }
+    
+    .clock-img {
+        width: 20px;
+        margin-right: 9px;
+    }
+    
+    .calendar-img {
+        width: 20px;
+        margin-right: 9px;
+    }
+    
+    .timing-item-one {
+        display: flex;
+        width: 130px;
+        line-height: 11px;
+        margin-right: 38px;
+        font-size: 1.2rem;
+    }
+    
+    .timing-item-two {
+        display: flex;
+        width: 103px;
+        line-height: 11px;
+        margin-right: 45px;
+        font-size: 1.2rem;
+    }
+    
+    .timing-item-three {
+        display: flex;
+        width: 119px;
+        line-height: 11px;
+        font-size: 1.2rem;
+    }    
+
+    h1 {
+        font-size: 5rem;
+        max-width: 567px;
+        width: 497px;
+        margin-bottom: 27px;
+        line-height: 71px;
+    }
+
+    .watch-film-item {
+        font-size: 1.28rem;
+        width: 414px;
+        line-height: 1.8rem;
+    }
+
+    .director-img {
+        width: 20.5%;
+        max-width: 350px;
+        margin-left: 120px;
+    }
+
+    .watch-film {
+        margin-bottom:77px;
+    }
+
+    .quote {
+        font-size: 1.57rem;
+        line-height: 28px;
+        width: 425px;
+        height: 176px;
+        padding: 20px 20px 20px 20px;
+        border-radius: 4.4px;
+        margin-left: 254px;
+        max-width: 484px;
+        max-height: 200px;
+    }
+    
+    .quote-item {
+        font-size: 1.57rem;
+    }
+
+    .author {
+        margin-top: 6px;
+        font-size: 1.25rem;
         text-align: end;
     }
 }
