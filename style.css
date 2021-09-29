@@ -7,12 +7,15 @@ html{
 
 body {
     font-family: Roboto;
+    width: 100%;
+    margin: 0px;
     
 }
  main{
-     /* min-width: 320px;
-     max-width: 991px; */
+     min-width: 320px;
+     /* max-width: 991px;  */
      width: 100%;
+
  }
 
 .head {
@@ -32,7 +35,7 @@ body {
 
 .all-text {
     margin-top: 18px;
-    width: 308px;
+    width: 100%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -44,12 +47,13 @@ body {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 34px;
-    width: 308px;
+    width: 100%;
 }
 
 .main-image img{
-    width: 170.55px;
-    height: 160.29px;
+    min-width: 170.55px;
+    /* height: 160.29px; */
+    width: 22%;
     margin-top: -5px;
     margin-left: -5px;
 }
@@ -57,7 +61,7 @@ body {
 .shedule{
     display: flex;
     flex-wrap: wrap;
-    width: 308px;
+    width: 100%;
 }
 
 .shedule h3{
@@ -70,7 +74,7 @@ body {
 }
 
 .shedule div{
-    width: 85px;
+    width: 17%;
     font-size: 1rem;
     margin-right: 34px;
 }
@@ -78,7 +82,8 @@ body {
 .shedule p{
     margin-top: 0px;
     margin-bottom: 18px;
- }
+    width: 86px; 
+}
  
 .shedule-image{
     display: none;
@@ -103,35 +108,39 @@ body {
     .main-info{
         display: flex;
         margin-bottom: 26px;
+        width: 100%
     }
 
     .all-text {
-        width: 383.41px;
+        width: 50%;
         font-size: 1.4rem;
         margin: 0px 95px 0px 0px; 
         padding: 0px;
     }
 
     .text{
+        width: 100%;
         margin-top: 4px;
         margin-bottom: 21px;
     }
     
     .main-image{
-        margin-top: 17px;
+        margin: 0px;
+        /* margin-top: 17px; */
+        width: 25%; 
     }
 
     .main-image img{
-        width: 212px;
-        height: 199px;
+        margin: 0px;
+        width: 100%;
+        max-width: 212px;
         margin: 0px;
     }
 
     .shedule{
         display: flex;
         flex-wrap: nowrap;
-        min-width: 830;
-        max-width: 1399px;
+        width: 100%;
     }
 
     .shedule h3{
@@ -140,9 +149,11 @@ body {
     }
 
     .shedule div{
-        width: 90px;
         font-size: 1.1rem;
         margin-right: 51px; 
+    }
+    .shedule p{
+        width: 56%;
     }
 }
 
@@ -152,7 +163,7 @@ body {
     }
     
     .about-course{
-        margin-left: 116px;
+        margin-left: 120px;
     }
 
     .head {
@@ -163,6 +174,7 @@ body {
 
     .main-info{
         display: flex;
+        width: 100%;
         /* margin-bottom: 26px; */
     }
 
@@ -174,15 +186,20 @@ body {
     }
 
     .text{
+        width: 100%;
         margin-top: 4px;
         margin-bottom: 36px;
     }
     
     .main-image{
         margin-top: 29.5px;
-        /* width: 100%; */
+        width: 25%;
+        min-width: 366px;
     }
 
+    .main-image p{
+        margin: 0px;
+    }
     .main-image img{
         width: 100%;
         height: 344px;
@@ -192,7 +209,6 @@ body {
     .shedule{
         display: flex;
         flex-wrap: nowrap;
-        /* min-width: 1280px; */
         width: 100%;
     }
 
@@ -205,7 +221,7 @@ body {
     .shedule div{
         width: 17%;
         font-size: 1.8rem;
-        margin-right: 12px;
+        margin:0px;
         height: 220px;
     } 
     .shedule p{
@@ -214,9 +230,7 @@ body {
 
     .shedule-image  {
         display: block;
-        /* width: 232px; */
         padding-right:119px;
-        
     }
     .shedule-image  img{
         position: relative;
