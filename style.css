@@ -12,11 +12,13 @@ body {
     
 }
  main{
-     min-width: 320px;
-     /* max-width: 991px;  */
-     width: 100%;
-
+    min-width: 320px;
+    width: 100%;
  }
+
+.about-course{
+    margin: 0px 30px 0px 36px;
+}
 
 .head {
     font-family: Roboto Slab;
@@ -43,6 +45,10 @@ body {
     line-height: 150%;
 }
 
+.text{
+    width: 100%;
+    margin-bottom: 18px;
+}
 .main-image {
     text-align: center;
     margin-top: 15px;
@@ -52,7 +58,6 @@ body {
 
 .main-image img{
     min-width: 170.55px;
-    /* height: 160.29px; */
     width: 22%;
     margin-top: -5px;
     margin-left: -5px;
@@ -74,15 +79,15 @@ body {
 }
 
 .shedule div{
-    width: 17%;
+    width: 22%;
     font-size: 1rem;
     margin-right: 34px;
+    min-width: 86px;
 }
 
 .shedule p{
     margin-top: 0px;
     margin-bottom: 18px;
-    width: 86px; 
 }
  
 .shedule-image{
@@ -93,7 +98,6 @@ body {
     main{
         min-width: 992px;
         max-width: 1279px; 
-        
     }
     
     .about-course {
@@ -126,7 +130,6 @@ body {
     
     .main-image{
         margin: 0px;
-        /* margin-top: 17px; */
         width: 25%; 
     }
 
@@ -175,7 +178,6 @@ body {
     .main-info{
         display: flex;
         width: 100%;
-        /* margin-bottom: 26px; */
     }
 
     .all-text {
