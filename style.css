@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-html {
-    font-size: 10px;
-}
-
 body {
     font-family: roboto;
     margin: 0;
@@ -24,9 +20,9 @@ header {
 }
 
 .logo {
-    width: 14%;
-    max-width: 64px;
-    margin-bottom: 33px;
+    width: 13.87vw;
+
+    margin-bottom: 45px;
 }
 
 .timing {
@@ -34,315 +30,249 @@ header {
     margin-bottom: 8px;
     margin-top: 0;
     align-items: center;
-    width: 75%;
-    max-width: 283px;
+    width: 61.33vw;
 }
 
 .planet-img {
-    width: calc(0.6vw + 0.6vh + 1vmin);
-    margin-right: 3px;
+    width: 2.67vw;
+    margin-right: 3.75px;
 }
 
 .clock-img {
-    width: calc(0.6vw + 0.6vh + 1vmin);
-    margin-right: 3px;
+    width: 2.67vw;
+    margin-right: 3.75px;
 }
 
 .calendar-img {
-    width: calc(0.6vw + 0.6vh + 1vmin);
-    margin-right: 3px;
+    width: 2.67vw;
+    margin-right: 3.75px;
 }
 
 .timing-item-one {
     display: flex;
-    width: 75px;
-    line-height: 11px;
-    margin-right: 12px;
-    font-size: 1rem;
+    width: 19.47vw;
+    line-height: 2.93vw;
+    margin-right: 14px;
+    font-size: 2.67vw;
 }
 
 .timing-item-two {
     display: flex;
-    width: 67px;
-    line-height: 11px;
-    margin-right: 12px;
-    font-size:  1rem;
+    width: 15.47vw;
+    line-height: 2.93vw;
+    margin-right: 15px;
+    font-size:  2.67vw;
 }
 
 .timing-item-three {
     display: flex;
-    width: 67px;
-    line-height: 11px;
-    font-size:  1rem;
+    width: 17.87vw;
+    line-height: 2.93vw;
+    font-size:  2.67vw;
 }
 
-.watch-film-description {
-    margin-right: 65px;
-    font-size: 1rem;
-}
-
-h1 {
+.how-watch-movies {
     font-family: roboto slab;
-    /* font-size: 3.7rem; */
-    max-width: 262px;
-    font-size: calc(3vw + 3vh + 1vmin);
-    line-height: 37px;
+    font-size: 9.87vw;
+    line-height: 9.87vw;
     margin-top: 0;
     margin-bottom: 20px;
+    width: 71vw;
 }
 
 .watch-film-item {
-    width: 212px;
-    font-size: 1rem;
-    line-height: 15px;
+    width: 55.47vw;
+    font-size: 2.67vw;
+    line-height: 4vw;
 }
 
 
 .director-img {
-    max-width: 204px;
-    width: 38%;
-    margin-left: 165px;
-}
-
-@media(min-width: 548px) {
-    .director-img {
-        max-width: 204px;
-        width: 38%;
-        margin-left: 3vw;
-    }
+    width: 37.87vw;
+    margin-left: 44vw;
 }
 
 .watch-film {
     display: flex;
     flex-wrap: wrap;
     margin-right: 0;
-    margin-bottom: 38px;
+    margin-bottom: 38.64px;
 }
 
 .quote {
     background-color: #1E4681;
-    border-radius: 2.33px;
+    border-radius: 0.55vw;
     color: white;
-    font-size: 1.1rem;
-    font-family: roboto slab;
-    line-height: 14.3px;
+    line-height: 3.75vw;
     width: 60vw;
-    height: 25.07vw;
+    height: 24.80vw;
     padding: 9px 12px 9px 12px;
     box-sizing: border-box;
-    max-width: 240px;
-    max-height: 100px;
     font-weight: 300;
-}
-
-@media(min-width: 375px) {
-    .watch-film-item {
-        font-size: 2.3vw;
-    }
-}
-@media(min-width: 650px) {
-    .watch-film-item {
-        font-size: 1.4rem;
-    }
-}
-
-@media(max-width: 352px) {
-    .quote {
-        font-size: 0.8rem;
-    }
-    .author {
-        font-size: 0.7rem;
-    }
 }
 
 .quote-item {
     margin: 0;
+    font-family: roboto slab;
+    font-size: 2.93vw;
 }
 
 .author {
     margin-top: 6px;
-    font-size: 1rem;
+    font-size: 2.67vw;
     text-align: end;
     font-family: roboto;
 }
 
 @media(min-width: 992px) {
-
-    html {
-        font-size: 12px;
-    }
     
     header {
-        padding: 25px 165px 0 81px;
+        padding: 22px 142px 0 71px;
     }
 
     .logo {
-        width: 7%;
-        max-width: 115px;
+        width: 6.55vw;
     }
 
-    .timing {
-        max-width: 493px;
-    }
 
     .planet-img {
-        width: 13px;
-        margin-right: 7px;
+        width: 1.31vw;
+        margin-right: 5px;
     }
     
     .clock-img {
-        width: 13px;
-        margin-right: 7px;
+        width: 1.31vw;
+        margin-right: 6px;
     }
     
     .calendar-img {
-        width: 13px;
-        margin-right: 8px;
+        width: 1.31vw;
+        margin-right: 7px;
     }
     
     .timing-item-one {
         display: flex;
-        width: 9.58vw;
-        line-height: 11px;
-        margin-right: 3%;
-        font-size: 1.2rem;
+        width: 9.17vw;
+        margin-right: 18px;
+        font-size: 1.21vw;
     }
     
     .timing-item-two {
         display: flex;
-        width: 7.56vw;
-        line-height: 11px;
-        margin-right: 3%;
-        font-size: 1.2rem;
+        width: 6.96vw;
+        margin-right: 24px;
+        font-size: 1.21vw;
     }
     
     .timing-item-three {
         display: flex;
         width: 8.87vw;
-        line-height: 11px;
-        font-size: 1.2rem;
+        font-size: 1.21vw;
     }    
 
-    h1 {
-        /* font-size: 5.3rem; */
-        max-width: 567px;
-        width: 385px;
-        margin-bottom: 27px;
-        line-height: 45px;
+    .how-watch-movies {
+        font-size: 4.64vw;
+        width: 33.47vw;
+        margin-bottom: 23px;
+        line-height: 4.70vw;
     }
 
     .watch-film-item {
-        font-size: 1.4rem;
-        width: 290px;
-        line-height: 1.6rem;
+        font-size: 1.21vw;
+        width: 25.40vw;
+        line-height: 1.81vw;
     }
 
     .director-img {
-        width: 22%;
-        max-width: 304px;
+        width: 17.74vw;
         margin-left: 113px;
     }
 
     .watch-film {
-        margin-bottom: 58px;
+        margin-bottom: 51px;
     }
 
     .quote {
-        font-size: 1rem;
-        line-height: 1.8vw;
-        width: 35%;
-        height: 13vw;
-        padding: 15px 15px 15px 15px;
-        border-radius: 3.3px;
-        margin-left: 20%;
-        max-width: 484px;
-        max-height: 200px;
+        width: 28.23vw;
+        height: 11.65vw;
+        padding: 12px 9px 16px 15px;
+        border-radius: 0.30vw;
+        margin-left: 23.89vw;
     }
     
     .quote-item {
-        font-size: 1.6vw;
+        font-size: 1.41vw;
+        line-height: 1.8vw;
     }
+
     .author {
-        margin-top: 8px;
-        font-size: 1.4vw;
+        margin-top: 7px;
+        font-size: 1.21vw;
         text-align: end;
     }
 }
 
 @media(min-width: 1280px) {
-    html {
-        font-size: 14px;
-    }
-    
+ 
     header {
-        padding: 18px 216px 0 106px;
+        padding: 21px 246px 0 121px;
     }
 
     .logo {
-        width: 7%;
-        max-width: 115px;
-    }
-
-    .timing {
-        max-width: 485px;
+        width: 8.75vw;
     }
 
     .planet-img {
-        width: 20px;
-        margin-right: 9px;
+        width: 1.72vw;
+        margin-right: 8px;
     }
     
     .clock-img {
-        width: 20px;
-        margin-right: 9px;
+        width: 1.72vw;
+        margin-right: 10px;
     }
     
     .calendar-img {
-        width: 20px;
-        margin-right: 9px;
+        width: 1.72vw;
+        margin-right: 13px;
     }
     
     .timing-item-one {
         display: flex;
-        width: 130px;
-        line-height: 11px;
+        width: 11.80vw;
         margin-right: 38px;
-        font-size: 1.2rem;
+        font-size: 1.56vw;
     }
     
     .timing-item-two {
         display: flex;
-        width: 103px;
-        line-height: 11px;
+        width: 9.06vw;
         margin-right: 45px;
-        font-size: 1.2rem;
+        font-size: 1.56vw;
     }
     
     .timing-item-three {
         display: flex;
-        width: 119px;
-        line-height: 11px;
-        font-size: 1.2rem;
+        width: 10.80vw;
+        font-size: 1.56vw;
     }    
 
-    h1 {
-        font-size: 5rem;
-        max-width: 567px;
-        width: 497px;
-        margin-bottom: 27px;
-        line-height: 71px;
+    .how-watch-movies {
+        font-size: 6.25vw;
+        width: 44.8vw;
+        margin-bottom: 22px;
+        line-height: 6.35vw;
     }
 
     .watch-film-item {
-        font-size: 1.28rem;
-        width: 414px;
-        line-height: 1.8rem;
+        font-size: 1.56vw;
+        width: 32.34vw;
+        line-height: 2.34vw;
     }
 
     .director-img {
-        width: 20.5%;
-        max-width: 350px;
-        margin-left: 120px;
+        width: 23.75vw;
+        margin-left: 201px;
     }
 
     .watch-film {
@@ -350,24 +280,21 @@ h1 {
     }
 
     .quote {
-        font-size: 1.57rem;
-        line-height: 28px;
-        width: 425px;
-        height: 176px;
-        padding: 20px 20px 20px 20px;
-        border-radius: 4.4px;
+        width: 37.79vw;
+        height: 15.63vw;
+        padding: 20px 27px 20px 25px;
+        border-radius: 0.39vw;
         margin-left: 254px;
-        max-width: 484px;
-        max-height: 200px;
     }
     
     .quote-item {
-        font-size: 1.57rem;
+        font-size: 1.95vw;
+        line-height: 2.50vw;
     }
 
     .author {
         margin-top: 6px;
-        font-size: 1.25rem;
+        font-size: 1.56vw;
         text-align: end;
     }
 }
