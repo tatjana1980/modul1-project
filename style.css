@@ -124,7 +124,7 @@ body {
 
 .class-format p{
     font-family: Roboto;
-    font-size: 10px;
+    font-size: 1rem;
     line-height: 130%;
     margin: 0px 10px 34px 0px;
 }
@@ -168,7 +168,7 @@ body {
     }
     
     .about-course {
-        margin-left: 64px;
+        margin: 0px 90px 0px 70px;
     }
 
     .head {
@@ -178,12 +178,12 @@ body {
 
     .main-info{
         display: flex;
-        margin-bottom: 26px;
+        margin-bottom: 18px;
         width: 100%
     }
 
     .all-text {
-        width: 50%;
+        width: 46%;
         font-size: 1.4rem;
         margin: 0px 95px 0px 0px; 
         padding: 0px;
@@ -203,8 +203,8 @@ body {
     .main-image img{
         margin: 0px;
         width: 100%;
-        max-width: 212px;
-        margin: 0px;
+        min-width: 212px;
+        margin: 8px 0px 0px 0px;
     }
 
     .shedule{
@@ -215,96 +215,109 @@ body {
 
     .shedule h3{
         font-size: 1.5rem;
-        margin-bottom: 5px; 
+        margin-bottom: 4px; 
+        margin-top: 42px;
     }
 
     .shedule div{
         font-size: 1.1rem;
-        margin-right: 51px; 
+        width: 20%;
+        margin-right: 43px;
     }
-    .shedule p{
-        width: 56%;
+    .shedule-text{
+        max-width: 100px;
     }
     .shedule-image  {
         display: block;
-        padding-right:119px;
+        justify-content: flex-start;
     }
+
     .shedule-image  img{
         position: relative;
+        max-width: 135px;
     }
 
     .ellipse{
-        margin: -18px 0px 5px 30px;
+        margin: -18px 0px 5px 8px;
         z-index: 1;
+        
     }
 
     .photo{
         z-index: 2;
     }
 
+    .class-format{
+     margin: 87px 90px 0px 70px; 
+    }
 
-.class-format{
-    margin:50px 0px 0px 36px; 
-}
+    .class-format h1{
+        font-size: 3.2rem;
+        width: 100%;
+        margin-bottom: 60px;
+    }
 
-.class-format h1{
-    font-size: 3.2rem;
-    width: 100%;
-    margin-bottom: 35px;
-}
+    .description-of-classes{
+        display: flex;
+        width: 100%;
+    }
 
-.description-of-classes{
-    display: flex;
-    width: 55%;
-}
+    .vebinar{
+        width: 18%;
+        margin-right: 50px;
+    }
 
-.class-format h3{
-    font-family: Roboto;
-    font-size: 1.2rem;
-    line-height: 130%;
-    /* or 16px */
-    color: #1E4681;
-    margin-bottom: 1px;
-}
+    .access{
+        width: 22%;
+        margin-right: 40px;
+    }
 
-.class-format p{
-    font-family: Roboto;
-    font-size: 10px;
-    line-height: 130%;
-    margin: 0px 10px 34px 0px;
-}
+    .communication{
+     width: 22%;
+    }
 
-.knowledge{
-    margin:78px 0px 0px 36px;
-}
+    .class-format h3{
+        font-family: Roboto;
+        font-size: 1.5rem;
+        line-height: 130%;
+        color: #1E4681;
+        margin-bottom: 4px;
+    }
 
-.knowledge h1{
-    font-family: Roboto Slab;
-    font-size: 2.6rem;
-    line-height: 101.38%;
-    margin-bottom: 27px;
-}
+    .class-format p{
+        font-family: Roboto;
+        font-size: 1.1rem;
+        line-height: 130%;
+    }
 
-.knowledge ul{
-    
-    padding-inline-start: 11px;
-    
-    margin-right: 30px;
-    /* or 18px */   
-}
+    .knowledge{
+            margin: 87px 90px 0px 70px; 
+        }
 
-.knowledge li{
-    
-    font-size: 0.8rem;
-    
-}
-.knowledge span{
-    display: block;
-    font-family: Roboto;
-    font-size: 1.2rem;
-    line-height: 150%;
-    margin-left: -2px; 
-}
+    .knowledge h1{
+        font-family: Roboto Slab;
+        font-size: 3.2rem;
+        line-height: 101.38%;
+        margin-bottom: 35px;
+    }
+
+    .knowledge ul{
+        padding-inline-start: 11px;
+        margin-right: 30px;
+        width: 45%;
+    }
+
+    .knowledge li{
+        font-size: 0.8rem;
+    }
+
+    .knowledge span{
+        display: block;
+        font-family: Roboto;
+        font-size: 1.4rem;
+        line-height: 150%;
+        margin-left: -2px; 
+    }
 }
 
 @media (min-width:1280px) {
@@ -313,7 +326,7 @@ body {
     }
     
     .about-course{
-        margin-left: 120px;
+        margin: 0px 90px 0px 120px;
     }
 
     .head {
@@ -328,9 +341,9 @@ body {
     }
 
     .all-text {
-        width: 46%;
+        width: 55%;
         font-size: 2.4rem;
-        margin: 0px 164px 36.7px 0px; 
+        margin: 0px 152px 36.7px 0px; 
         padding: 0px;
     }
 
@@ -368,13 +381,12 @@ body {
     }
 
     .shedule div{
-        width: 17%;
+        width: 20%;
         font-size: 1.8rem;
         margin:0px;
-        height: 220px;
     } 
     .shedule p{
-        width: 150px;
+       max-width: 160px;
     }
 
     .shedule-image  {
@@ -393,6 +405,78 @@ body {
     .photo{
         z-index: 2;
     }
+
+    .class-format{
+        margin: 147px 90px 0px 120px; 
+       }
+   
+       .class-format h1{
+           font-size: 5.5rem;
+           width: 100%;
+           margin-bottom: 100px;
+       }
+   
+       .description-of-classes{
+           display: flex;
+           width: 100%;
+       }
+   
+       .vebinar{
+           width: 19%;
+           margin-right: 115px;
+       }
+   
+       .access{
+           width: 22%;
+           margin-right: 114px;
+       }
+   
+       .communication{
+            width: 22%;
+       }
+   
+       .class-format h3{
+           font-family: Roboto;
+           font-size: 2.5rem;
+           line-height: 130%;
+           color: #1E4681;
+           margin-bottom: 8px;
+       }
+   
+       .class-format p{
+           font-family: Roboto;
+           font-size: 1.8rem;
+           line-height: 130%;
+       }
+   
+       .knowledge{
+               margin: 185px 90px 0px 120px; 
+           }
+   
+       .knowledge h1{
+           font-family: Roboto Slab;
+           font-size: 5.5rem;
+           line-height: 101.38%;
+           margin-bottom: 55px;
+       }
+   
+       .knowledge ul{
+           padding-inline-start: 20px;
+           margin-right: 30px;
+           width: 53%;
+       }
+    
+       .knowledge li{
+           font-size: 1.5rem;
+       }
+
+       .knowledge span{
+           display: block;
+           font-family: Roboto;
+           font-size: 2.4rem;
+           line-height: 150%;
+           margin-left: -2px; 
+       }
 }
 
 
