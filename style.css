@@ -7,145 +7,228 @@ body {
     width: 100vw;
 }
 
-.reviews {
-    background-color: #EFEFEF;
-    padding: 42px 32px 53px 36px;
-    width: 100%;
+footer {
+    background-color: #000000;
+    padding: 23px 196px 19px 56px;
 }
 
-.course-count {
-    font-size: 6.93vw;
-    line-height: 6.93vw;
-    font-family: roboto slab;
-    margin: 0 0 30px 0;
-    width: 65.60vw;
+.logo-footer {
+    width: 14.13vw;
+    margin: 0 0 14px 0;
 }
 
-.reviews_item {
-    width: 82.13vw;
-    height: 66.13vw;
-    background-color: #FFFFFF;
-    border-radius: 3.73vw;
-    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-    padding: 19px 25px 13px 21px;
-    box-sizing: border-box;
+.socials {
+    width: 29vw;
+    margin: 0 0 47.66px 0;
 }
 
-.review-text {
-    font-size: 2.67vw;
-    line-height: 4vw;
-    margin: 0 0 15px 0;
+.inst-footer {
+    width: 4vw;
+    margin-right: 8px;
 }
 
-.reviews_avatar {
-    width: 21.33vw;
-    margin-right: 14px;
+.facebook-footer {
+    width: 4vw;
+    margin-right: 9px;
 }
 
-.name-of-reviewer {
-    font-family: roboto slab;
-    font-weight: 700;
-    font-size: 3.73vw;
-    margin-bottom: 18px;
+.vk-footer {
+    width: 4vw;
+    margin-right: 11px;
 }
 
-.author-of-review {
-    display: flex;
-}
-
-.facebook-icon {
+.viber-footer {
     width: 4vw;
 }
 
+.contacts {
+    width: 38vw;
+    margin: 0 0 48px 0;
+}
 
+.phone {
+    margin-bottom: 5px;
+}
+
+.phone-img {
+    width: 3.47vw;
+    margin-right: 10px;
+}
+
+.phone-number {
+    width: 28.53vw;
+    text-decoration: none;
+    color: white;
+    font-size: 3.20vw;
+}
+
+.letter-img {
+    width: 3.47vw;
+    margin-right: 10px;
+}
+
+.mail-address {
+    width: 31.47vw;
+    text-decoration: none;
+    color: white;
+    font-size: 3.20vw;
+}
+
+
+.data {
+    font-size: 2.67vw;
+    width: 30.40vw;
+    color: white;
+    margin: 0;
+}
 
 @media(min-width: 992px) {
 
-    .reviews {
-        background-color: #EFEFEF;
-        padding: 53px 256px 64px 74px;
-        width: 100%;
+    footer {
+        padding: 29px 100px 26px 70px;
     }
     
-    .course-count {
-        font-size: 3.23vw;
-        line-height: 6.93vw;
-        margin: 0 0 30px 0;
-        width: 65.60vw;
-    }
-    
-    .reviews_item {
-        width: 46.17vw;
-        height: 26.31vw;
-        border-radius: 1.71vw;
-        padding: 23px 45px 17px 26px;
-    }
-    
-    .review-text {
-        font-size: 1.21vw;
-        line-height: 1.81vw;
-        margin: 0 0 19px 0;
-    }
-    
-    .reviews_avatar {
-        width: 9.07vw;
-        margin-right: 38px;
-    }
-    
-    .name-of-reviewer {
-        font-size: 1.71vw;
-        margin-bottom: 15px;
-    }
-    
-    .author-of-review {
+    .footer-item {
         display: flex;
-    }
-    
-    .facebook-icon {
-        width: 1.81vw;
+        margin: 0 0 84px 0;
     }
 
+    .logo-footer {
+        width: 6.75vw;
+        margin: 0 0 17px 0;
+    }
+    
+    .socials {
+        width: 13vw;
+        margin: 0 53.02vw 0 0;
+    }
+    
+    .inst-footer {
+        width: 1.92vw;
+        margin-right: 10px;
+    }
+    
+    .facebook-footer {
+        width: 1.92vw;
+        margin-right: 12px;
+    }
+    
+    .vk-footer {
+        width: 1.92vw;
+        margin-right: 14px;
+    }
+    
+    .viber-footer {
+        width: 1.92vw;
+    }
+    
+    .contacts {
+        width: 18vw;
+        margin: 3px 0 0 0;
+    }
+    
+    .phone {
+        margin-bottom: 10px;
+    }
+    
+    .phone-img {
+        width: 1.61vw;
+        margin-right: 13px;
+    }
+    
+    .phone-number {
+        width: 14.11vw;
+        font-size: 1.41vw;
+    }
+    
+    .letter-img {
+        width: 1.61vw;
+        margin-right: 13px;
+    }
+    
+    .mail-address {
+        width: 14.11vw;
+        font-size: 1.41vw;
+    }
+    
+    
+    .data {
+        font-size: 1.01vw;
+        width: 12.00vw;
+    }
 }
 
 @media(min-width: 1280px) {
-   
-    .reviews {
-        background-color: #EFEFEF;
-        padding: 91px 447px 111px 126px;
-        width: 100%;
+    
+    footer {
+        padding: 50px 172px 45px 122px;
     }
     
-    .course-count {
-        font-size: 4.30vw;
-        line-height: 4.40vw;
-        margin: 0 0 65px 0;
-        width: 68.05vw;
+    .footer-item {
+        display: flex;
+        margin: 0 0 147px 0;
+    }
+
+    .logo-footer {
+        width: 8.98vw;
+        margin: 0 0 30px 0;
     }
     
-    .reviews_item {
-        width: 61.80vw;
-        height: 35.23vw;
-        border-radius: 2.34vw;
-        padding: 40px 46px 29px 45px;
+    .socials {
+        width: 18vw;
+        margin: 0 37vw 0 0;
     }
     
-    .review-text {
-        font-size: 1.56vw;
-        line-height: 2.34vw;
-        margin: 0 0 38px 0;
+    .inst-footer {
+        width: 2.58vw;
+        margin-right: 18px;
     }
     
-    .reviews_avatar {
-        width: 12.03vw;
-        margin-right: 47px;
+    .facebook-footer {
+        width: 2.58vw;
+        margin-right: 21px;
     }
     
-    .name-of-reviewer {
-        font-size: 2.34vw;
-        margin-bottom: 27px;
+    .vk-footer {
+        width: 2.58vw;
+        margin-right: 25px;
     }
     
-    .facebook-icon {
-        width: 2.50vw;
+    .viber-footer {
+        width: 2.58vw;
+    }
+    
+    .contacts {
+        width: 23.91vw;
+        margin: 4px 0 0 0;
+    }
+    
+    .phone {
+        margin-bottom: 13px;
+    }
+    
+    .phone-img {
+        width: 2.11vw;
+        margin-right: 22px;
+    }
+    
+    .phone-number {
+        width: 17.97vw;
+        font-size: 1.95vw;
+    }
+    
+    .letter-img {
+        width: 2.11vw;
+        margin-right: 22px;
+    }
+    
+    .mail-address {
+        width: 18.98vw;
+        font-size: 1.95vw;
+    }
+    
+    .data {
+        font-size: 1.41vw;
+        width: 16.80vw;
     }
 }
