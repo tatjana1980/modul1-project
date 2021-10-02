@@ -11,6 +11,21 @@ body {
     margin: 0px;
 }
 
+.course-program{
+    margin: 0px;
+    padding: 0px;
+}
+
+.block-4-title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.93vw;
+    line-height: 6.93vw;
+    margin: 42px 32px 53px 36px;
+    padding: 0px;
+}
+
 header {
     padding: 36px 32px 0 35px;
     width: 100vw;
@@ -28,8 +43,309 @@ header {
     margin-bottom: 45px;
 }
 
-.timing {
+.program-container{
     display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0px 0px 47.16px 95px;
+    padding: 0px;
+}
+
+.program-container-item{
+    width: 49.5vw;
+    height: 40.5vw;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 7.8%;
+    margin: 0;
+    margin-bottom: 24.16px;
+    padding: 0px;
+}
+
+.program-picture{
+    width: 100%;
+}
+
+.block-4-subtitle{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 3.73vw;
+    line-height: 97%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.program-date-info{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 3.2vw;
+    line-height: 130%;
+    margin-left: 4%;
+    padding: 0px;
+    margin-top: 10%;
+    
+}
+
+.program-date-info-last{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 3.2vw;
+    line-height: 130%;
+    margin-left: 4%;
+    padding: 0px;
+    margin-top: 3%;
+}
+
+.cost{
+    padding: 61px 0px 53px 36px;
+    width: 100vw;
+    background: #9DC9C8;
+    margin: 0px;
+}
+
+.block-cost-title{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    max-width: 60%;
+    font-size: 6.93vw;
+    line-height: 6.93vw;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 8.7%;
+}
+
+.cost-container-flex{
+    display: flex;  
+}
+
+.cost-container-flex-item{
+    max-width: 37%;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 8%;
+}
+
+.cost-paragraph{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.67vw;
+    line-height: 101.38%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.cost-subtitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.2vw;
+    line-height: 101.38%;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.cost-number{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.93vw;
+    line-height: 101.38%;
+    margin: 0px;
+    margin-bottom: 8.7%;
+    padding: 0px;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+
+    .course-program{
+        width: 100%;
+        min-height: 60vh;
+    }
+
+    .block-4-title{
+        font-size: 3.23vw;
+        line-height: 6.93vw;
+        width: 65.60vw;
+        margin: 55px 256px 64px 74px;
+    }
+
+    .program-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 90%;
+        margin: 0px;
+        padding: 0px 0px 52.6px 48.65px;
+    }
+
+    .program-container-item{
+        width: 22.5vw;
+        height: 19.5vw;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        margin-bottom: 24px;
+        margin-right: 20px;
+        padding: 0px;
+    }
+
+    .block-4-subtitle{
+        font-size: 1.71vw;
+        line-height: 97%;
+        margin-top: 3%;
+        margin-left: 4%;
+        margin-bottom: 0px;
+    }
+
+    .program-date-info{
+        font-size: 1.41vw;
+        line-height: 130%;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .program-date-info-last{
+        font-size: 1.41vw;
+        line-height: 130%;
+        margin-top: 3%;
+        margin-left: 4%;
+    }
+
+    .cost{
+        padding: 104px 256px 110px 74px;
+        width: 100%;
+    }
+
+    .block-cost-title{
+        font-size: 3.23vw;
+        line-height: 6.93vw;
+        width: 65.60vw;
+        margin-bottom: 4.3%;
+    }
+    
+    .cost-paragraph{
+        font-size: 1.01vw;
+        width: 17.00vw;
+        line-height: 101.38%;
+    }
+
+    .cost-container-flex-item{
+        max-width: 37%;
+        margin-right: 8%;
+    }
+ 
+    
+    .cost-subtitle{
+        width: 14.11vw;
+        font-size: 1.41vw;
+        line-height: 101.38%;
+        margin-bottom: 6px;
+    }
+    
+    .cost-number{
+        font-size: 4.7vw;
+        line-height: 101.38%;
+        margin-bottom: 5.1%;
+    }
+}
+
+@media (min-width: 1280px) {
+    
+        .course-program{
+            width: 100vw;
+        }
+
+        .block-4-title{
+            font-size: 4.30vw;
+            line-height: 4.40vw;
+            margin: 91px 0px 127px 126px;
+            width: 68.05vw;
+        }
+
+        .program-container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 100%;
+            margin-left: 2.3%;
+            margin-bottom: 121px;
+            padding: 0px;
+        }
+
+        .program-container-item{
+            width: 29.5vw;
+            height: 24.5vw;
+            box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+            margin-bottom: 3%;
+            margin-left: 0px;
+            margin-right: 3%;
+            padding: 0px;
+        }
+
+        .block-4-subtitle{
+            font-size: 2.34vw;
+            line-height: 97%;
+            margin-top: 3%;
+            margin-left: 4%;
+            margin-bottom: 0px;
+        }
+    
+        .program-date-info{
+            font-size: 1.95vw;
+            line-height: 130%;
+            margin-top: 10%;
+            margin-left: 4%;
+        }
+    
+        .program-date-info-last{
+            font-size: 1.95vw;
+            line-height: 130%;
+            margin-top: 3%;
+            margin-left: 4%;
+        }
+
+        .cost{
+            padding: 191px 0px 199px 126px;
+            width: 100vw;
+        }
+
+        .block-cost-title{
+            font-size: 4.30vw;
+            line-height: 4.40vw;
+            margin: 0 0 65px 0;
+            width: 100%;
+            margin-bottom: 5%;
+        }
+
+        .cost-paragraph{
+            font-size: 1.41vw;
+            width: 22.80vw;
+            line-height: 101.38%;
+        }
+    
+        .cost-container-flex-item{
+            max-width: 37%;
+            margin-right: 8%;
+        }
+     
+        
+        .cost-subtitle{
+            width: 17.97vw;
+            font-size: 1.95vw;
+            line-height: 101.38%;
+            margin-bottom: 6px;
+        }
+        
+        .cost-number{
+            font-size: 4.7vw;
+            line-height: 101.38%;
+            margin-bottom: 5.1%;
+        }
+    }
+
     margin-bottom: 8px;
     margin-top: 0;
     align-items: center;
@@ -768,6 +1084,7 @@ main{
         margin-left: -2px;
     }
 }
+
 
 
 
